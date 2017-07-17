@@ -1,0 +1,54 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:foreground="?attr/selectableItemBackground">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/card_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/batu"/>
+        <TextView
+            android:id="@+id/card_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/card_image"
+            android:layout_marginLeft="16dp"
+            tools:text="Smart Laundry"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@+id/card_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_image"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            tools:text="This is a SMART LAUNDRY"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#8c8989"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/action_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_text"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="?attr/colorPrimary"
+            android:text="Action" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
