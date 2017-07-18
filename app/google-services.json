@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "62896947728",
+    "firebase_url": "https://my-material-85de7.firebaseio.com",
+    "project_id": "my-material-85de7",
+    "storage_bucket": "my-material-85de7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62896947728:android:47595ea301359c90",
+        "android_client_info": {
+          "package_name": "com.example.itrain.mymaterial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62896947728-oj6le2k48knjegjlhdoavvvpi4ap9cgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqcV1Ra95fBz2pw6T3ID1RrYCQtcQunng"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

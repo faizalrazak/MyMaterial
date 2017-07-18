@@ -14,7 +14,6 @@
         android:background="?attr/colorPrimary"
         app:layout_scrollFlags="scroll|enterAlways"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
-
     </android.support.v7.widget.Toolbar>
 
     <EditText
@@ -28,10 +27,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
-        android:hint="Address"
+        android:hint="Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/Adderss" />
+        android:id="@+id/password"
+        android:inputType="textPassword"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
